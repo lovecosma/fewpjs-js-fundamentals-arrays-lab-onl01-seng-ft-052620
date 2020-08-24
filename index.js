@@ -1,1 +1,9 @@
 // Write your solution here!
+let append = ["Milo", "Otis", "Garfield"]
+append.push("Odie")
+let prepend = ["Milo", "Otis", "Garfield"]
+prepend.unshift("Odie")
+let removeLast = ["Milo", "Otis", "Garfield"]
+removeLast.pop("Garfield")
+let removeFirst = ["Milo", "Otis", "Garfield"]
+removeFirst.shift(removeFirst[0])
